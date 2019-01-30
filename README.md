@@ -1,15 +1,15 @@
-# Sweet Poems
+# Pretty Low Price
 
-For my fourth milestone project, I decided to create a poembook wesbite, where users can view list of poems, and add their own work too. they can do this by adding a genre and then adding a poem to the website
+For my 5th milestone project, 
  
 ## UX
  
 
-- As a user, I want to read poetry.
-- As a user, I want to have a site that will give a list of poems
-- As a user, I want the option to add a genre and my own poetry if possible.
-- As a user, I want the design to be clean and straightforward.
-- As a user, I want the font to be large enough so that it can be readable. 
+- As a user, 
+- As a user, 
+- As a user, 
+- As a user,
+- As a user, 
 
 
 ## Technologies Used
