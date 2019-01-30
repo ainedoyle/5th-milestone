@@ -1,42 +1,73 @@
+# Sweet Poems
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+For my fourth milestone project, I decided to create a poembook wesbite, where users can view list of poems, and add their own work too. they can do this by adding a genre and then adding a poem to the website
+ 
+## UX
+ 
+
+- As a user, I want to read poetry.
+- As a user, I want to have a site that will give a list of poems
+- As a user, I want the option to add a genre and my own poetry if possible.
+- As a user, I want the design to be clean and straightforward.
+- As a user, I want the font to be large enough so that it can be readable. 
 
 
-Welcome to your Django project on Cloud9 IDE!
+## Technologies Used
 
-Your Django project is already fully setup. Just click the "Run" button to start
-the application. On first run you will be asked to create an admin user. You can
-access your application from 'https://django-frameworks-aine31.c9users.io/' and the admin page from 
-'https://django-frameworks-aine31.c9users.io/admin'.
+- [HTML](https://www.w3schools.com/html/)
+- [CSS](https://www.w3schools.com/css/default.asp)
+- [Python](https://www.python.org/)
+- [materializecss](https://materializecss.com//)
+- [Jinja2](http://jinja.pocoo.org/docs/2.10/)
 
-## Starting from the Terminal
+## Testing
 
-In case you want to run your Django application from the terminal just run:
+1) Home pages will show list of poems
 
-1) Run syncdb command to sync models to database and create Django's default superuser and auth system
+2) To add a poem:
+- Click on new poem
+- Choose genre
+- Fill out form
+- Click add poem
 
-    $ python manage.py migrate
+A new poem should appear on homepage.
 
-2) Run Django
+3) Click Manage Genres on nav bar to add a new genre
 
-    $ python manage.py runserver $IP:$PORT
-    
-## Configuration
+4) Click Manage Poems to edit or delete poems.
 
-You can configure your Python version and `PYTHONPATH` used in
-Cloud9 > Preferences > Project Settings > Language Support.
+5) Got to footer to access links to other poem sites.
 
-## Support & Documentation
+## Deployment
 
-Django docs can be found at https://www.djangoproject.com/
+How to deploy to Heroku:
 
-You may also want to follow the Django tutorial to create your first application:
-https://docs.djangoproject.com/en/1.9/intro/tutorial01/
+First, create a new Heroku account and create new app. Then type the following into terminal:
 
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE.
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+- $heroku 
+- $heroku login
+- $heroku apps
+- $git remote -v
+- $git remote add heroku https://github.com/ainedoyle/4th-milestone
+- $git push -u heroku master
+- $sudo pip3 freeze --local > requirements.txt
+- $echo web: python run.py > Procfile
+Deployed at: https://fourth-milestone-project.herokuapp.com/
+
+## Credits
+
+
+### Content
+
+https://www.poems4free.com/
+
+
+### Acknowledgements
+
+- I received inspiration for this project from X
+
+Code Institute 
+
+Udemy
+
+Poems4Free

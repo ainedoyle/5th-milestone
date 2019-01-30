@@ -10,7 +10,35 @@ footer {
     padding-top: 20px;
     padding-bottom: 20px;
     border-top: 1px solid #ededed;
-    color: #A9A9A9;
+    color: #000000;
+}
+
+.navbar {
+    background: #d17870;
+    background: linear-gradient(to bottom, #d17870 0%,#bf6767 40%,#a05756 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.btn-success {
+    background: #d17870;
+    background: linear-gradient(to bottom, #d17870 0%,#bf6767 40%,#a05756 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.search-bar {
+    padding-bottom: 15px;
+}
+
+.search-bar button {
+    background-color: #a05756;
+    border: 1px solid #8C4B4B;
+    color: #fff;
+    margin-left: 5px;
+    border-radius: 3px;
+    padding: 4px 10px;
+    
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    background-color: #a05756;
 }
 
 .icon-bar {
@@ -35,11 +63,10 @@ footer {
 }
 
 .product {
-    background-size: contain;
+    background-size: 400px;
     background-position: center center;
     background-repeat: no-repeat;
-    width: 150px;
-    height: 150px;
+    height: 450px;
     margin: 0 auto;
 }
 
