@@ -18,6 +18,7 @@ Due to some errors, the code might not show as intended on the heroku app.
 - [Python](https://www.python.org/)
 - [Font Awesome](https://origin.fontawesome.com/)
 - [Django](https://www.djangoproject.com/)
+- [SQLITE](https://www.sqlite.org/index.html)
 
 ## Testing
 
