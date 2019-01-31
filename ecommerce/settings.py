@@ -23,7 +23,7 @@ SECRET_KEY = 'uh7xjkr350kfj&-fjvccs&es)_y94(qjb)r%zo##^2kax7tvp#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [os.environ.get('C9_HOSTNAME'), 'final-fifth-project.herokuapp.com']
+ALLOWED_HOSTS = [os.environ.get('C9_HOSTNAME'), 'final-fifth-milestone.herokuapp.com']
 
 
 # Application definition
