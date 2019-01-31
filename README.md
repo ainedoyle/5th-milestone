@@ -1,15 +1,14 @@
 # Pretty Low Price
 
-For my 5th milestone project, 
- 
+For my 5th milestone project, I create an ecommerce website called Pretty Low Price. 
+Due to some errors, the code might not show as intended on the heroku app.
 ## UX
  
 
-- As a user, 
-- As a user, 
-- As a user, 
-- As a user,
-- As a user, 
+- As a user, I want to find the best shopping deals online.
+- As a user, I want a simple site where I can easily read what the deals have to offer.
+- As a user, I want to pay for an item and have a form in input my details.
+
 
 
 ## Technologies Used
@@ -17,26 +16,22 @@ For my 5th milestone project,
 - [HTML](https://www.w3schools.com/html/)
 - [CSS](https://www.w3schools.com/css/default.asp)
 - [Python](https://www.python.org/)
-- [materializecss](https://materializecss.com//)
-- [Jinja2](http://jinja.pocoo.org/docs/2.10/)
+- [Font Awesome](https://origin.fontawesome.com/)
+- [Django](https://www.djangoproject.com/)
 
 ## Testing
 
-1) Home pages will show list of poems
+1) Home page show lists of products
 
-2) To add a poem:
-- Click on new poem
-- Choose genre
-- Fill out form
-- Click add poem
-
-A new poem should appear on homepage.
-
-3) Click Manage Genres on nav bar to add a new genre
-
-4) Click Manage Poems to edit or delete poems.
-
-5) Got to footer to access links to other poem sites.
+2) To buy a product:
+- Click on quantity
+- Pick as much as you want!
+- Click on "ADD"
+- Cart should show that one item is in the cart
+- Go to Cart
+- Click on "Checkout"
+- Fill in payment details on the form
+- 
 
 ## Deployment
 
@@ -48,18 +43,18 @@ First, create a new Heroku account and create new app. Then type the following i
 - $heroku login
 - $heroku apps
 - $git remote -v
-- $git remote add heroku https://github.com/ainedoyle/4th-milestone
+- $git remote add heroku https://github.com/ainedoyle/final-fifth-project
 - $git push -u heroku master
 - $sudo pip3 freeze --local > requirements.txt
 - $echo web: python run.py > Procfile
-Deployed at: https://fourth-milestone-project.herokuapp.com/
+Deployed at: https://final-fifth-project.herokuapp.com/
 
 ## Credits
 
 
 ### Content
 
-https://www.poems4free.com/
+https://pixabay.com/en/
 
 
 ### Acknowledgements
@@ -68,6 +63,5 @@ https://www.poems4free.com/
 
 Code Institute 
 
-Udemy
 
-Poems4Free
+Pixabay
